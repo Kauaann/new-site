@@ -1,0 +1,232 @@
+body{
+    font-family: 'Montserrat';
+  
+
+}
+
+h1, h2, h3, h4, h5, h6{
+
+    font-family: 'Montserrat-bold';
+
+}
+
+.big-heading{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+
+
+em{
+    color: white;
+}
+
+
+#title{
+    background-color: #00abf0;
+    color: white;
+    position: relative;
+}
+
+
+
+
+
+
+/*seção container*/
+
+.container-fluid{
+    padding: 5% 15% 15%;
+   
+}
+
+
+/*features session*/
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    
+ 
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    color: #00abf0;
+
+}
+
+.icon:hover{
+    color: rgb(39, 90, 231);
+}
+
+
+
+
+/*navigation bar section */
+
+.navbar-brandd{
+    padding: 0 0 3.5rem;
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.nav-item{
+    padding: 0 18px;
+   
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+    color: white;
+
+}
+
+/*image section*/
+
+
+.foto-marley{
+width: 40%;
+transform: rotate(25deg);
+position: absolute;
+left: 40%;
+
+}
+
+/*button section*/
+
+.download-button{
+    margin: 5% 3% 5% 0;
+} 
+
+.button-price {
+    background-color: #00abf0;
+}
+
+
+/*testemunhas section*/
+
+.testemunha-text{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+#testemunha{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #00abf0;
+}
+
+.imagem-testemunha{
+    width: 20%;
+    border-radius: 100%;
+    margin: 25px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+
+#pressionar{
+    background-color: #00abf0;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-foto{
+    width: 15%;
+    margin: 15px 15px 50px;
+}
+
+.card-deck{
+    width: 100%;
+}
+
+
+/*Carousel seção*/
+
+
+
+
+/*precos section*/
+
+#precos{
+    padding: 100px;
+    text-align: center;
+    }
+
+
+.preco-coluna{
+    padding: 3% 2%;
+}
+
+
+/*site responsivo */
+
+@media (max-width: 1028px){
+    .foto-marley{
+        position: static;
+        transform: rotate(0);
+            }
+    .titulo-pagina{
+        text-align: center;
+    }
+}
+
+
+
+
+/*footer site*/
+
+#downloads{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#00abf0 ;
+    
+}
+
+.download-app{
+    color: white;
+    font-family: "montserrat-black";
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+
+#baixo-site{
+    text-align: center;
+}
+
+
+.copyright{
+    
+    color: gray;
+    }
+
+.social-icon{
+    margin: 20px 10px;
+}
